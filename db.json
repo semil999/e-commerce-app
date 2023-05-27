@@ -1,0 +1,146 @@
+{
+    "products" : [
+        {
+            "id" : 1,
+            "title" : "T-SHIRTS",
+            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/constants/landing/collections/tshirt.webp",
+            "exploreTitle" : "Explore Our Tshirts Collection",
+            "exploreDetailes" : "Welcome to Codeswear.com, your one-stop shop for stylish and unique tshirts. Buy T-Shirts at the best price in India. We offer a wide range of tshirts for all interests, including coding tshirts, anime tshirts, and casual tshirts for everyday wear. All of our tshirts are made with high-quality materials and are designed to be comfortable and durable. Shop now and find the perfect tshirt for you!",
+            "category" : [
+                {
+                    "productId" : 1,
+                    "productName" : "Breaking Code Chest Logo Tshirt",
+                    "description" : "Elevate your style with the \"Breaking Code Chest Logo T-shirt\". This trendy and fashionable t-shirt is perfect for tech enthusiasts and coding enthusiasts alike. The minimalist and sleek design features a chest logo with the phrase \"Breaking Code\" in a modern font, making it a great conversation starter. Made from high-quality and comfortable fabric, this t-shirt offers a soft and breathable feel. Whether you're attending a coding event, hanging out with friends, or simply want to showcase your passion for programming, this t-shirt is a must-have. Combine style and coding with the \"Breaking Code Chest Logo T-shirt\" and make a statement wherever you go.",
+                    "highlights" : [
+                        "Minimalist and sleek \"Breaking Code\" chest logo",
+                        "High-quality and comfortable fabric",
+                        "Perfect for tech enthusiasts and coding enthusiasts",
+                        "Soft and breathable feel",
+                        "Great for coding events and casual occasions"
+                    ],
+                    "tages" : "t-shirt, breaking code, logo, coding, programming, tech",
+                    "productCurrentPrice" : "₹549",
+                    "productPreviousPrice" : "₹950",
+                    "colorImages" : [
+                        {
+                            "colorId" : 1,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/breaking-code-chest-logo-tshirt-black/0.webp",
+                            "colorName" : "Black",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 2,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/breaking-code-chest-logo-tshirt-blue/0.webp",
+                            "colorName" : "Blue",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 3,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/breaking-code-chest-logo-tshirt-bottlegreen/0.webp",
+                            "colorName" : "Bottlegreen",
+                            "selected" : true
+                        },
+                        {
+                            "colorId" : 4,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/breaking-code-chest-logo-tshirt-lavender/0.webp",
+                            "colorName" : "Lavender",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 5,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/breaking-code-chest-logo-tshirt-maroon/0.webp",
+                            "colorName" : "Maroon",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 6,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/breaking-code-chest-logo-tshirt-pink/0.webp",
+                            "colorName" : "Pink",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 7,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/breaking-code-chest-logo-tshirt-red/0.webp",
+                            "colorName" : "Red",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 8,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/breaking-code-chest-logo-tshirt-skyblue/0.webp",
+                            "colorName" : "Skyblue",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 9,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/breaking-code-chest-logo-tshirt-white/0.webp",
+                            "colorName" : "White",
+                            "selected" : false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "title" : "CAPS",
+            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/constants/landing/collections/caps.webp",
+            "exploreTitle" : "Explore Our Caps Collection",
+            "exploreDetailes" : "Stay cool and stylish with the wide selection of caps available at Codeswear.com. Our caps are perfect for every occasion, whether you're looking for a casual everyday cap or something to wear to the gym. We have a variety of styles to choose from, including coding caps, anime caps, and casual caps for everyday wear. All of our caps are made with high-quality materials and are designed to be comfortable and durable. Shop now and find the perfect cap for you!",
+            "category" : [
+                {
+
+                }
+            ]
+        },
+        {
+            "id" : 3,
+            "title" : "HOODIES",
+            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/constants/landing/collections/hoodie.webp",
+            "exploreTitle" : "Explore Our Hoodies Collection",
+            "exploreDetailes" : "Stay warm and stylish with the wide selection of hoodies available at Codeswear.com. Our hoodies are perfect for every occasion, whether you're looking for a casual everyday hoodie or something to wear to the gym. We have a variety of styles to choose from, including coding hoodies, anime hoodies, and casual hoodies for everyday wear. All of our hoodies are made with high-quality materials and are designed to be comfortable and durable. Shop now and find the perfect hoodie for you!",
+            "category" : [
+                {
+
+                }
+            ]
+        },
+        {
+            "id" : 4,
+            "title" : "MUGS",
+            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/constants/landing/collections/mugs.webp",
+            "exploreTitle" : "Explore Our Mugs Collection",
+            "exploreDetailes" : "Stay hydrated and show off your personality with the wide selection of mugs available at Codeswear.com. Our mugs are perfect for every interest, including coding mugs for tech enthusiasts, anime mugs, and casual mugs for everyday use. All of our mugs are made with high-quality materials and are designed to be durable and long-lasting. Shop now and find the perfect mug for you!",
+            "category" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "id" : 5,
+            "title" : "SWEATSHIRTS",
+            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/constants/landing/collections/sweatshirt.webp",
+            "exploreTitle" : "Explore Our Sweatshirts Collection",
+            "exploreDetailes" : "Stay comfortable and stylish with the wide selection of sweatshirts available at Codeswear.com. Our sweatshirts are perfect for every occasion, whether you're looking for a casual everyday sweatshirt or something to wear to the gym. We have a variety of styles to choose from, including coding sweatshirts, anime sweatshirts, and casual sweatshirts for everyday wear. All of our sweatshirts are made with high-quality materials and are designed to be comfortable and durable. Shop now and find the perfect sweatshirt for you!",
+            "category" : [
+                {
+
+                }
+            ]
+        },
+        {
+            "id" : 6,
+            "title" : "OVERSIZED T-SHIRTS",
+            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/constants/landing/collections/oversizedtshirt.webp",
+            "exploreTitle" : "Explore Our Oversizedtshirts Collection",
+            "exploreDetailes" : "Stay cool and stylish with the wide selection of caps available at Codeswear.com. Our caps are perfect for every occasion, whether you're looking for a casual everyday cap or something to wear to the gym. We have a variety of styles to choose from, including coding caps, anime caps, and casual caps for everyday wear. All of our caps are made with high-quality materials and are designed to be comfortable and durable. Shop now and find the perfect cap for you!",
+            "category" : [
+                {
+                    
+                }
+            ]
+        }
+    ],
+    "user" : [],
+    "cartdata" : []
+}
