@@ -77,7 +77,1073 @@
                             "selected" : false
                         }
                     ]
+                },
+                {
+                    "productId" : 2,
+                    "productName" : "Never Mind Typography Printed Tshirt",
+                    "description" : "Elevate your casual wardrobe with the \"Never Mind Typography Printed T-shirt\". This t-shirt features a bold and eye-catching typography print on the front with the phrase \"Never Mind\". The stylish design adds a touch of attitude and personality to your outfit. Made from soft and comfortable fabric, this t-shirt ensures all-day comfort and breathability. The regular fit and short sleeves make it perfect for everyday wear. Whether you're heading out with friends or running errands, this t-shirt is a versatile choice. Express your laid-back vibe and carefree attitude with the \"Never Mind Typography Printed T-shirt\".",
+                    "highlights" : [
+                        "Bold and eye-catching \"Never Mind\" typography print",
+                        "Soft and comfortable fabric",
+                        "Regular fit and short sleeves",
+                        "Versatile and suitable for everyday wear",
+                        "Showcase your laid-back vibe and carefree attitude"
+                    ],
+                    "tages" : "t-shirt, typography, casual, laid-back, attitude",
+                    "productCurrentPrice" : "₹549",
+                    "productPreviousPrice" : "₹950",
+                    "colorImages" : [
+                        {
+                            "colorId" : 1,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/never-mind-typography-printed-tshirt-black/0.webp",
+                            "colorName" : "Black",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 2,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/never-mind-typography-printed-tshirt-blue/0.webp",
+                            "colorName" : "Blue",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 3,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/never-mind-typography-printed-tshirt-bottlegreen/0.webp",
+                            "colorName" : "Bottlegreen",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 4,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/never-mind-typography-printed-tshirt-lavender/0.webp",
+                            "colorName" : "Lavender",
+                            "selected" : true
+                        },
+                        {
+                            "colorId" : 5,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/never-mind-typography-printed-tshirt-maroon/0.webp",
+                            "colorName" : "Maroon",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 6,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/never-mind-typography-printed-tshirt-navyblue/0.webp",
+                            "colorName" : "Navyblue",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 7,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/never-mind-typography-printed-tshirt-pink/0.webp",
+                            "colorName" : "Pink",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 8,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/never-mind-typography-printed-tshirt-red/0.webp",
+                            "colorName" : "Red",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 9,
+                            "image" : "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/never-mind-typography-printed-tshirt-white/0.webp",
+                            "colorName" : "White",
+                            "selected" : false
+                        }
+                    ]
+                },
+                {
+                    "productId" : 3,
+                    "productName" : "",
+                    "description" : "",
+                    "highlights" : [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "tages" : "",
+                    "productCurrentPrice" : "",
+                    "productPreviousPrice" : "",
+                    "colorImages" : [
+                        {
+                            "colorId" : 1,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 2,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 3,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 4,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 5,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 6,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 7,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 8,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 9,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        }
+                    ]
+                },
+                {
+                    "productId" : 2,
+                    "productName" : "",
+                    "description" : "",
+                    "highlights" : [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "tages" : "",
+                    "productCurrentPrice" : "",
+                    "productPreviousPrice" : "",
+                    "colorImages" : [
+                        {
+                            "colorId" : 1,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 2,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 3,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 4,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 5,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 6,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 7,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 8,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 9,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        }
+                    ]
+                },
+                {
+                    "productId" : 2,
+                    "productName" : "",
+                    "description" : "",
+                    "highlights" : [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "tages" : "",
+                    "productCurrentPrice" : "",
+                    "productPreviousPrice" : "",
+                    "colorImages" : [
+                        {
+                            "colorId" : 1,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 2,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 3,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 4,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 5,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 6,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 7,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 8,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 9,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        }
+                    ]
+                },
+                {
+                    "productId" : 2,
+                    "productName" : "",
+                    "description" : "",
+                    "highlights" : [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "tages" : "",
+                    "productCurrentPrice" : "",
+                    "productPreviousPrice" : "",
+                    "colorImages" : [
+                        {
+                            "colorId" : 1,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 2,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 3,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 4,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 5,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 6,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 7,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 8,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 9,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        }
+                    ]
+                },
+                {
+                    "productId" : 2,
+                    "productName" : "",
+                    "description" : "",
+                    "highlights" : [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "tages" : "",
+                    "productCurrentPrice" : "",
+                    "productPreviousPrice" : "",
+                    "colorImages" : [
+                        {
+                            "colorId" : 1,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 2,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 3,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 4,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 5,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 6,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 7,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 8,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 9,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        }
+                    ]
+                },
+                {
+                    "productId" : 2,
+                    "productName" : "",
+                    "description" : "",
+                    "highlights" : [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "tages" : "",
+                    "productCurrentPrice" : "",
+                    "productPreviousPrice" : "",
+                    "colorImages" : [
+                        {
+                            "colorId" : 1,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 2,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 3,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 4,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 5,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 6,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 7,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 8,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 9,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        }
+                    ]
+                },
+                {
+                    "productId" : 2,
+                    "productName" : "",
+                    "description" : "",
+                    "highlights" : [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "tages" : "",
+                    "productCurrentPrice" : "",
+                    "productPreviousPrice" : "",
+                    "colorImages" : [
+                        {
+                            "colorId" : 1,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 2,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 3,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 4,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 5,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 6,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 7,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 8,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 9,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        }
+                    ]
+                },
+                {
+                    "productId" : 2,
+                    "productName" : "",
+                    "description" : "",
+                    "highlights" : [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "tages" : "",
+                    "productCurrentPrice" : "",
+                    "productPreviousPrice" : "",
+                    "colorImages" : [
+                        {
+                            "colorId" : 1,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 2,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 3,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 4,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 5,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 6,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 7,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 8,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 9,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        }
+                    ]
+                },
+                {
+                    "productId" : 2,
+                    "productName" : "",
+                    "description" : "",
+                    "highlights" : [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "tages" : "",
+                    "productCurrentPrice" : "",
+                    "productPreviousPrice" : "",
+                    "colorImages" : [
+                        {
+                            "colorId" : 1,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 2,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 3,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 4,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 5,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 6,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 7,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 8,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 9,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        }
+                    ]
+                },
+                {
+                    "productId" : 2,
+                    "productName" : "",
+                    "description" : "",
+                    "highlights" : [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "tages" : "",
+                    "productCurrentPrice" : "",
+                    "productPreviousPrice" : "",
+                    "colorImages" : [
+                        {
+                            "colorId" : 1,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 2,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 3,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 4,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 5,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 6,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 7,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 8,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 9,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        }
+                    ]
+                },
+                {
+                    "productId" : 2,
+                    "productName" : "",
+                    "description" : "",
+                    "highlights" : [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "tages" : "",
+                    "productCurrentPrice" : "",
+                    "productPreviousPrice" : "",
+                    "colorImages" : [
+                        {
+                            "colorId" : 1,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 2,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 3,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 4,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 5,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 6,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 7,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 8,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 9,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        }
+                    ]
+                },
+                {
+                    "productId" : 2,
+                    "productName" : "",
+                    "description" : "",
+                    "highlights" : [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "tages" : "",
+                    "productCurrentPrice" : "",
+                    "productPreviousPrice" : "",
+                    "colorImages" : [
+                        {
+                            "colorId" : 1,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 2,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 3,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 4,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 5,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 6,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 7,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 8,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 9,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        }
+                    ]
+                },
+                {
+                    "productId" : 2,
+                    "productName" : "",
+                    "description" : "",
+                    "highlights" : [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "tages" : "",
+                    "productCurrentPrice" : "",
+                    "productPreviousPrice" : "",
+                    "colorImages" : [
+                        {
+                            "colorId" : 1,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 2,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 3,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 4,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 5,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 6,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 7,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 8,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 9,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        }
+                    ]
+                },
+                {
+                    "productId" : 2,
+                    "productName" : "",
+                    "description" : "",
+                    "highlights" : [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "tages" : "",
+                    "productCurrentPrice" : "",
+                    "productPreviousPrice" : "",
+                    "colorImages" : [
+                        {
+                            "colorId" : 1,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 2,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 3,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 4,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 5,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 6,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 7,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 8,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        },
+                        {
+                            "colorId" : 9,
+                            "image" : "",
+                            "colorName" : "",
+                            "selected" : false
+                        }
+                    ]
                 }
+
             ]
         },
         {
@@ -136,7 +1202,7 @@
             "exploreDetailes" : "Stay cool and stylish with the wide selection of caps available at Codeswear.com. Our caps are perfect for every occasion, whether you're looking for a casual everyday cap or something to wear to the gym. We have a variety of styles to choose from, including coding caps, anime caps, and casual caps for everyday wear. All of our caps are made with high-quality materials and are designed to be comfortable and durable. Shop now and find the perfect cap for you!",
             "category" : [
                 {
-                    
+
                 }
             ]
         }
