@@ -1,0 +1,9 @@
+.productPreviousPrice{
+    text-decoration: line-through;
+    color: gray;
+    font-weight: 600;
+}
+.productCurrentPrice{
+    font-weight: bold;
+    padding-left: 10px;
+}
