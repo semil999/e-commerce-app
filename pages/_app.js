@@ -1,7 +1,21 @@
+import { getProductData } from '@/Redux/Action/productAction'
+import { store, wrapper } from '@/Redux/Store/store'
 import '@/styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { useEffect } from 'react'
+import { Provider, useDispatch } from 'react-redux'
 
-export default function App({ Component, pageProps }) {
+ function App({ Component, pageProps }) {
+  const dispatch = useDispatch()
+  useEffect(() => {
+    dispatch(getProductData())
+  }, [])
+  
   return <>
-    <Component {...pageProps} />
+    <Provider store={store}>
+      <Component {...pageProps} />
+    </Provider>
   </>
 }
+
+export default wrapper.withRedux(App)

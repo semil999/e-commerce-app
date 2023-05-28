@@ -1,29 +1,26 @@
 import HeadComponet from '@/Components/HeadComponet'
-import { useEffect } from 'react';
+import Link from 'next/link'
+import { useSelector } from 'react-redux'
 
-export const getStaticProps = async () => {
-  const res = await fetch('http://localhost:3001/products');
-  const repo = await res.json();
-  return { props: { repo } };
-};
-
-export default function Home({repo}) {
-  useEffect(() => {
-    console.log(repo)
-  }, [])
-  
+export default function Home() {
+  const products = useSelector(state => state.products.products)
   return (
     <>
       <HeadComponet title={'Home'}/>
-      <div>
-        {
-          repo?.map((x,i) => {
-            return <div key={i}>
-              <h3>{x.title}</h3>
-              <p>{x.exploreTitle}</p>
-            </div>
-          })
-        }
+      <div className='container py-5'>
+        <div className='row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4'>
+          {
+            products?.map((x,i) => {
+              return <Link key={i} href={`/products/${x.id}`}>
+                <div className='col'>
+                  <div className='card'>
+                    <img src={x.image} className="img-fluid" alt="this is my image" />
+                  </div>
+                </div>
+              </Link>
+            })
+          }
+        </div>
       </div>
     </>
   )
