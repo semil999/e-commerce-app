@@ -1,0 +1,20 @@
+.footerImg{
+    width: 50%;
+}
+.h6{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.link{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 4px;
+    transition: all 0.3s;
+}
+.link:hover{
+    color: #0b47a9;
+}

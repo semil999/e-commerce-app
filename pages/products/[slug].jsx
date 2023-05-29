@@ -13,20 +13,21 @@ const Slug = () => {
     const singleProduct = products?.find(x => x.id == id)
 
     useEffect(() => {
+      setisLoader(true)
       setTimeout(() => {
         setisLoader(false)
-      }, 1500);
-    }, [])
+      }, 1000);
+    }, [id])
     
   return (
     <>
         {
           isLoader == true ?
           <Loader /> :
-          <div className='container'>
-            <div className='text-center'>
-              <h2>{singleProduct.exploreTitle}</h2>
-              <p>{singleProduct.exploreDetailes}</p>
+          <div className='container py-5'>
+            <div>
+              <h2 className='text-center fw-semibold pb-2'>{singleProduct.exploreTitle}</h2>
+              <p className={`pb-4 ${styles.exploreDetailes}`}>{singleProduct.exploreDetailes}</p>
             </div>
             <div className='row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 g-3'>
               {
@@ -34,10 +35,10 @@ const Slug = () => {
                   let productImage = x?.colorImages?.find(x => x.selected == true)
                   return <div className='col' style={{cursor : 'pointer'}} key={i} onClick={() => router.push(`/products/${id}/${x.productId}`)}>
                       <div className='card h-100'>
-                        <img src={productImage?.image} style={{height : '350px'}} alt="productImage" className='card-img-top' />
+                        <img src={productImage?.image} alt="productImage" className={`card-img-top ${styles.image}`} />
                         <div className='card-body'>
-                          <h6>{x.productName.length >= 26 ? `${x.productName.slice(0 , 26)}....` : x.productName}</h6>
-                          <p className='mb-0 text-success fw-semibold'>Available Color : {x.colorImages.length}</p>
+                          <h6 className='fw-semibold'>{x.productName.length >= 26 ? `${x.productName.slice(0 , 26)}....` : x.productName}</h6>
+                          <p className='mb-0 text-success'><span className='fw-semibold' style={{color : '#0b47a9'}}>Available Color :</span> {x.colorImages.length}</p>
                         </div>
                         <div className='card-footer'>
                           <span className={styles.productPreviousPrice}>{x.productPreviousPrice}</span>

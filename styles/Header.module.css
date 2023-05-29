@@ -1,0 +1,60 @@
+.navbar{
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.cart{
+    margin-top: -2px;
+    padding-right: 15px;
+    color: #0b47a9;
+}
+.bage{
+    position: absolute;
+    top: 12px;
+    left: 36px;
+    height: 19px;
+    width: 19px;
+    background-color: red;
+    font-size: 11px;
+    font-weight: bold;
+}
+.link{
+    margin: 0 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: all 0.3s !important;
+}
+.link:hover{
+    color: #0b47a9;
+}
+.login{
+    background-color: #0b47a9;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 1px solid #0b47a9;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+.login:hover{
+    background-color: transparent;
+    color: #0b47a9;
+}
+.canvasLink{
+    text-decoration: none;
+    color: #0b47a9;
+    font-weight: 600;
+    padding-left: 7px;
+    display: inline-block;
+}
+
+@media (max-width : 1100px){
+    .link{
+        margin: 0 10px;
+    }
+}

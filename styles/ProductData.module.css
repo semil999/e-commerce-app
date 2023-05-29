@@ -1,0 +1,18 @@
+.border{
+    border: 1px solid red;
+}
+.prices{
+    position: relative;
+}
+.buttons{
+    background-color: #0b47a9;
+    color: white;
+    border: 1px solid #0b47a9;
+    transition: all 0.3s;
+    font-weight: 600;
+}
+.buttons:hover{
+    border: 1px solid #0b47a9;
+    background-color: white;
+    color: #0b47a9;
+}

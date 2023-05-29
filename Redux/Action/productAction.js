@@ -1,5 +1,6 @@
 import axios from "axios";
 import { PRODUCT } from "../Types/types";
+// import { PRODUCT } from "../Types/types";
 
 // export const getServerSideProps = async () => {
 //     const res = await fetch('http://localhost:3001/products');

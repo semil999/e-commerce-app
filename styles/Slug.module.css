@@ -7,3 +7,54 @@
     font-weight: bold;
     padding-left: 10px;
 }
+.exploreDetailes{
+    text-align: center;
+}
+.image{
+    height: 350px;
+}
+
+@media (max-width : 1200px) {
+    .image{
+        height: 280px;
+    }
+}
+
+@media (max-width : 767px) {
+    .image{
+        height: 300px;
+    }
+    .exploreDetailes{
+        text-align: justify;
+    }
+}
+
+@media (max-width : 576px) {
+    .image{
+        height: 550px;
+    }
+}
+
+@media (max-width : 510px) {
+    .image{
+        height: 500px;
+    }
+}
+
+@media (max-width : 400px) {
+    .image{
+        height: 450px;
+    }
+}
+
+@media (max-width : 350px) {
+    .image{
+        height: 400px;
+    }
+}
+
+@media (max-width : 330px) {
+    .image{
+        height: 350px;
+    }
+}
