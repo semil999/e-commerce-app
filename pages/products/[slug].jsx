@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import styles from "./../../styles/Slug.module.css"
+import HeadComponet from '@/Components/HeadComponet'
 
 const Slug = () => {
     const products = useSelector(state => state.products.products)
@@ -21,9 +22,11 @@ const Slug = () => {
     
   return (
     <>
+        <HeadComponet title={`${singleProduct?.title == undefined ? 'Loading....' : singleProduct?.title}`}/>
         {
           isLoader == true ?
           <Loader /> :
+          <>
           <div className='container py-5'>
             <div>
               <h2 className='text-center fw-semibold pb-2'>{singleProduct.exploreTitle}</h2>
@@ -37,6 +40,7 @@ const Slug = () => {
                       <div className='card h-100'>
                         <img src={productImage?.image} alt="productImage" className={`card-img-top ${styles.image}`} />
                         <div className='card-body'>
+                          <p className={`text-muted ${styles.titleText}`}>{singleProduct.title.substring(0 , singleProduct.title.length - 1)}</p>
                           <h6 className='fw-semibold'>{x.productName.length >= 26 ? `${x.productName.slice(0 , 26)}....` : x.productName}</h6>
                           <p className='mb-0 text-success'><span className='fw-semibold' style={{color : '#0b47a9'}}>Available Color :</span> {x.colorImages.length}</p>
                         </div>
@@ -50,6 +54,7 @@ const Slug = () => {
               }
             </div>
         </div>
+        </>
         }
     </>
   )

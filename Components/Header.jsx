@@ -3,14 +3,42 @@ import { Button, Container, Nav, Navbar } from "react-bootstrap"
 import styles from "./../styles/Header.module.css"
 import { useRouter } from "next/router"
 import { FaBars, FaCartPlus } from 'react-icons/fa';
+import { useDispatch, useSelector } from "react-redux";
+import { logoutUser } from "@/Redux/Action/loginUserAction";
+import Swal from "sweetalert2";
 
 const Header = () => {
     const router = useRouter()
-    // #0cf
-    // #0b47a9
+    const dispatch = useDispatch()
+    const user = useSelector(state => state.user.user)
+    const loginUser = useSelector(state => state.loginUser.loginUser[0])
+    const matchLoginUser = user?.find(x => x.id == loginUser?.userId)
+
+    const logout = (id) => {
+      Swal.fire({
+        title: 'Are you sure?',
+        text: "You won't to Logout!",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, Logout!'
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Logout has been Successfully.',
+            showConfirmButton: false,
+            timer: 1500
+          })
+          dispatch(logoutUser(id))
+        }
+      })
+    }
   return (
     <>
-        <div className="position-sticky top-0" style={{zIndex : 9999}}>
+        <div className="position-sticky top-0" style={{zIndex : 99}}>
         <Navbar expand="lg" className={`${styles.navbar} px-xl-5 p-0`}>
             <Container fluid>
                 <Navbar.Brand className="py-0 m-0"><Link href={'/'}><img src={'/logo.png'} alt="logo" className={styles.logo}/></Link></Navbar.Brand>
@@ -26,13 +54,17 @@ const Header = () => {
                     <Link className={styles.link} href="/products/5">SweatShirts</Link>
                     <Link className={styles.link} href="/products/4">Mugs</Link>
                     <Link className={styles.link} href="/products/6">Oversized T-Shirts</Link>
-                    <button className={`position-relative border-0 bg-transparent fs-3 ${styles.cart}`}>
+                    <button className={`position-relative me-2 border-0 bg-transparent fs-3 ${styles.cart}`}>
                         <FaCartPlus />
                         <span className={`text-white translate-middle border border-light rounded-circle ${styles.bage}`}>
                             0
                         </span>
                     </button>
-                    <button type="button" onClick={() => router.push('/login')} className={styles.login}>Login</button>
+                    {
+                      !matchLoginUser ? 
+                      <button type="button" onClick={() => router.push('/login')} className={styles.login}>Login</button>:
+                      <button type="button" onClick={() => logout(loginUser.id)} className={styles.logout}>Logout</button>
+                    }
                   </Nav>
                 </Navbar.Collapse>
             </Container>
@@ -46,9 +78,13 @@ const Header = () => {
             </h5>
             <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <div className="offcanvas-body">
+          <div className="offcanvas-body position-relative" style={{zIndex : 100}}>
             <p>
-                <button type="button" onClick={() => router.push('/login')} className={styles.login}>Login</button>
+                {
+                  !matchLoginUser ?
+                  <button type="button" onClick={() => router.push('/login')} className={styles.login}>Login</button> :
+                  <button type="button" onClick={() => logout(loginUser.id)} className={styles.logout}>Logout</button>
+                }
                 <button className={`ms-2 position-relative border-0 bg-transparent fs-3 ${styles.cart}`}>
                     <FaCartPlus />
                     <span className={`text-white translate-middle border border-light rounded-circle ${styles.bage}`}>0</span>

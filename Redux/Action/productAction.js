@@ -18,3 +18,11 @@ export const getProductData = () => {
         })
     }
 }
+
+export const updateProductData = (obj) => {
+    return (dispatch) => {
+        axios.put(`http://localhost:3001/products/${obj.id}` , obj).then(() => {
+            dispatch(getProductData())
+        })
+    }
+}

@@ -6,11 +6,16 @@ import "@/styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect } from "react";
 import { Provider, useDispatch } from "react-redux";
+import "./../styles/Register.css"
+import { getUserData } from "@/Redux/Action/userAction";
+import { getLoginUser } from "@/Redux/Action/loginUserAction";
 
 function App({ Component, pageProps }) {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getProductData());
+    dispatch(getUserData())
+    dispatch(getLoginUser())
   }, []);
 
   return (

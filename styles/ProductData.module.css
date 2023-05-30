@@ -1,8 +1,12 @@
 .border{
-    border: 1px solid red;
+    border: 2px solid red;
+}
+.notselected{
+    border: 2px solid transparent;
 }
 .prices{
     position: relative;
+    width: 100%;
 }
 .buttons{
     background-color: #0b47a9;
@@ -15,4 +19,74 @@
     border: 1px solid #0b47a9;
     background-color: white;
     color: #0b47a9;
+}
+.spans{
+    color: #4B5563;
+    font-weight: bold;
+    display: inline-block;
+}
+.pricesSpan1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #838994;
+    text-decoration: line-through;
+    padding-right: 15px;
+}
+.productCurrentPrice{
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+}
+.priceBage{
+    position: absolute;
+    font-size: 14px;
+    color: #4B5563;
+    top: 12px;
+    left: 215px;
+    transform: translate(-50%,-50%);
+}
+.description{
+    text-align: left;
+}
+.colorImagesDiv{
+    border-bottom: 2px solid #838994;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.caps{
+    text-decoration: none;
+    color: #0b47a9;
+    font-weight: bold;
+}
+.colorImages{
+    width: 50%;
+}
+
+@media (max-width : 991px){
+    .colorImages{
+        width: 75%;
+    }   
+}
+
+@media (max-width : 576px) {
+    .description{
+        text-align: justify;
+    }
+    .colorImages{
+        width: 100%;
+    }   
+    .productCurrentPrice{
+        font-size: 25px;
+    }   
+    .pricesSpan1{
+        padding-right: 10px;
+        font-size: 25px;
+    }
+    .priceBage{
+        font-size: 13px;
+        left: 180px;
+    }
+    .spans{
+        padding-bottom: 3px;
+    }
 }
