@@ -9,6 +9,7 @@ import { Provider, useDispatch } from "react-redux";
 import "./../styles/Register.css"
 import { getUserData } from "@/Redux/Action/userAction";
 import { getLoginUser } from "@/Redux/Action/loginUserAction";
+import { getCartData } from "@/Redux/Action/cartAction";
 
 function App({ Component, pageProps }) {
   const dispatch = useDispatch();
@@ -16,6 +17,7 @@ function App({ Component, pageProps }) {
     dispatch(getProductData());
     dispatch(getUserData())
     dispatch(getLoginUser())
+    dispatch(getCartData())
   }, []);
 
   return (

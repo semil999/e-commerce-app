@@ -11,7 +11,12 @@ import HeadComponet from "@/Components/HeadComponet"
 
 const Login = () => {
   const user = useSelector(state => state.user.user)
-  const loginUser = useSelector(state => state.loginUser.loginUser[0])
+  let loginData ;
+    if (typeof window !== "undefined") {
+      loginData = JSON.parse(localStorage.getItem("login")) || ""
+    }
+  const loginUserData = useSelector(state => state.loginUser.loginUser)
+  const loginUser = loginUserData?.find(x => x.id == loginData.id)
   const dispatch = useDispatch()
   const blanckObj = {email : '' , password : ''}
   const [obj, setobj] = useState({...blanckObj})
@@ -37,6 +42,7 @@ const Login = () => {
         showConfirmButton: false,
         timer: 2000
       })
+      localStorage.setItem('login' , JSON.stringify(obj))
       router.push('/')
       dispatch(addLoginUser(obj))
     }
@@ -75,6 +81,7 @@ const Login = () => {
           showConfirmButton: false,
           timer: 1500
         })
+        localStorage.clear()
         dispatch(logoutUser(id))
       }
     })

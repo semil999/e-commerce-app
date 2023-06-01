@@ -7,27 +7,46 @@ import HeadComponet from '@/Components/HeadComponet'
 import Loader from '@/Components/Loader'
 import { updateProductData } from '@/Redux/Action/ProductAction'
 import Swal from 'sweetalert2'
+import CartCanvas from '@/Components/CartCanvas'
+import { v4 as uuidv4 } from 'uuid';
+import { addCartData, updateCartData } from '@/Redux/Action/cartAction'
 
 const ProductData = () => {
     const products = useSelector(state => state.products.products)
     const user = useSelector(state => state.user.user)
-    const loginUser = useSelector(state => state.loginUser.loginUser[0])
+    const loginUserData = useSelector(state => state.loginUser.loginUser)
+    let loginData ;
+    if (typeof window !== "undefined") {
+      loginData = JSON.parse(localStorage.getItem("login")) || ""
+    }
+    const loginUser = loginUserData?.find(x => x.id == loginData.id)
     const matchLoginUser = user?.find(x => x.id == loginUser?.userId)
     const dispatch = useDispatch()
     const router = useRouter()
-    const id = router.query.productdata
     const [isLoader, setisLoader] = useState(true)
+    const blanckObj = {id : 0 , productName : '' , productCurrentPrice : '' , image : '' , imageColor : '' , loginUserId : ''}
+    const [obj, setobj] = useState({...blanckObj})
+    const cartData = useSelector(state => state.cartData.cartData)
+    const [firstId, setfirstId] = useState(0)
+    const [secondId, setsecondId] = useState(0)
+
+    useEffect(() => {
+      if (router.isReady) {
+        setfirstId(router.query.productdata[0])
+        setsecondId(router.query.productdata[1])
+      }
+    }, [router.isReady]);
+
+    const productData = products?.find(x => x.id == firstId)
+    const categoryData = productData?.category?.find(x => x.productId == secondId)
+    const image = categoryData?.colorImages?.find(x => x.selected == true)
 
     useEffect(() => {
       setisLoader(true)
       setTimeout(() => {
         setisLoader(false)
       }, 1500);
-    }, [id])
-
-    const productData = products?.find(x => x.id == id[0])
-    const categoryData = productData?.category?.find(x => x.productId == id[1])
-    const image = categoryData?.colorImages?.find(x => x.selected == true)
+    }, [router.query.productdata])
 
     const changeColor = (x) => {
       const copyData = {...productData}
@@ -37,7 +56,7 @@ const ProductData = () => {
       dispatch(updateProductData(copyData))
     }
 
-    const buyProduct = () => {
+    const addtoCartData = () => {
       if(!matchLoginUser){
         Swal.fire({
           title: 'Please Login!',
@@ -54,9 +73,26 @@ const ProductData = () => {
         })
       }
       else{
-        
+        let cart = cartData?.find(x => x.loginUserId == matchLoginUser.id && x.imageColor == image.colorName && x.productName == categoryData.productName)
+        if(!cart){
+          obj.id = uuidv4()
+          obj.productName = categoryData.productName;
+          obj.productCurrentPrice = categoryData.productCurrentPrice
+          obj.image = image.image;
+          obj.imageColor = image.colorName
+          obj.loginUserId = matchLoginUser.id
+          obj.quantity = 1
+          setobj({...obj})
+          dispatch(addCartData(obj))
+          setobj({...blanckObj})
+        }
+        else{
+          cart.quantity += 1;
+          dispatch(updateCartData(cart))
+        }
       }
     }
+
   return (
     <>
         <HeadComponet title={`${categoryData?.productName == undefined ? 'Loading....' : categoryData?.productName}`}/>
@@ -82,7 +118,7 @@ const ProductData = () => {
                       <p className={styles.description}>{categoryData?.description}</p>
                     </div>
                     {
-                      categoryData.highlights ?
+                      categoryData?.highlights ?
                       <div>
                       <span className={styles.spans}>Product Highlights:</span>
                       <ul>
@@ -95,7 +131,7 @@ const ProductData = () => {
                     </div> : <></>
                     }
                     {
-                      categoryData.tages ? 
+                      categoryData?.tages ? 
                       <p><span className={styles.spans}>Tags:</span> {categoryData?.tages}</p>
                       : <></>
                     }
@@ -121,7 +157,11 @@ const ProductData = () => {
                       <p className={styles.priceBage}>(Free Shipping)</p>
                     </div>
                     <div className='pb-4'>
-                      <button type='button' onClick={() => buyProduct()} className={`px-4 me-2 btn rounded-pill ${styles.buttons}`}>Buy Now</button> <button type='button' className={`px-4 me-2 btn rounded-pill ${styles.buttons}`}>Add to Cart</button>
+                      {
+                        !matchLoginUser ?
+                        <button type='button' className={`px-4 me-2 btn rounded-pill ${styles.buttons}`} onClick={() => addtoCartData()}>Add to Cart</button>:
+                        <button type='button' className={`px-4 me-2 btn rounded-pill ${styles.buttons}`} data-bs-toggle='offcanvas' data-bs-target="#cartCanvas" onClick={() => addtoCartData()}>Add to Cart</button>
+                      }
                     </div>
                     <div>
                       <span className={styles.spans}>Exciting Offers:</span>
@@ -135,6 +175,7 @@ const ProductData = () => {
                 </div>
               </div>
             </div>
+            <CartCanvas />
           </>
         }
     </>

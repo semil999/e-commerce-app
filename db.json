@@ -961,7 +961,7 @@
               "colorId": 3,
               "image": "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/toxic-tshirt-bottlegreen/0.webp",
               "colorName": "Bottlegreen",
-              "selected": false
+              "selected": true
             },
             {
               "colorId": 4,
@@ -997,7 +997,7 @@
               "colorId": 9,
               "image": "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/toxic-tshirt-white/0.webp",
               "colorName": "White",
-              "selected": true
+              "selected": false
             }
           ]
         },
@@ -2855,7 +2855,7 @@
               "colorId": 1,
               "image": "https://codeswear.nyc3.cdn.digitaloceanspaces.com/sweatshirts/joker-sweatshirt-black/0.webp",
               "colorName": "Black",
-              "selected": false
+              "selected": true
             },
             {
               "colorId": 2,
@@ -2873,7 +2873,7 @@
               "colorId": 4,
               "image": "https://codeswear.nyc3.cdn.digitaloceanspaces.com/sweatshirts/joker-sweatshirt-white/0.webp",
               "colorName": "White",
-              "selected": true
+              "selected": false
             }
           ]
         },
@@ -3422,8 +3422,126 @@
       "phone": "6356997427",
       "age": "19",
       "gender": "Male"
+    },
+    {
+      "id": "6a387158-3f6d-4a5f-951f-e23cb16dab6f",
+      "name": "Rohit Bhatu",
+      "email": "r@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "phone": "+1 (454) 718-3537",
+      "age": "20",
+      "gender": "Male"
+    },
+    {
+      "id": "e757e026-f015-4f77-a783-6105c3ed730a",
+      "name": "Test",
+      "email": "test@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "phone": "+1 (508) 735-6487",
+      "age": "20",
+      "gender": "Female"
+    },
+    {
+      "id": "cc4e167e-da3c-4b84-97ba-2c699b15b276",
+      "name": "Miranda Fitzgerald",
+      "email": "a@a.com",
+      "password": "Pa$$w0rd!",
+      "phone": "+1 (739) 501-3313",
+      "age": "54",
+      "gender": "Female"
     }
   ],
-  "cartdata": [],
+  "cartdata": [
+    {
+      "id": "6e6a9f97-fbe4-4511-af24-61e8c5fc69b5",
+      "productName": "Breaking Code Chest Logo Tshirt",
+      "productCurrentPrice": "₹549",
+      "image": "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/breaking-code-chest-logo-tshirt-bottlegreen/0.webp",
+      "imageColor": "Bottlegreen",
+      "loginUserId": "6a387158-3f6d-4a5f-951f-e23cb16dab6f",
+      "quantity": 6
+    },
+    {
+      "id": "dedfc79e-c729-4e5b-9502-cfff888bfa47",
+      "productName": "Avengers Cap",
+      "productCurrentPrice": "₹219",
+      "image": "https://codeswear.nyc3.cdn.digitaloceanspaces.com/caps/avengers-cap-red/0.webp",
+      "imageColor": "Red",
+      "loginUserId": "e757e026-f015-4f77-a783-6105c3ed730a",
+      "quantity": 2
+    },
+    {
+      "id": "cba893ee-c600-45c0-a154-b896fb65bb81",
+      "productName": "React Mug",
+      "productCurrentPrice": "₹299",
+      "image": "https://codeswear.nyc3.cdn.digitaloceanspaces.com/mugs/react-mug-white/0.webp",
+      "imageColor": "White",
+      "loginUserId": "e757e026-f015-4f77-a783-6105c3ed730a",
+      "quantity": 1
+    },
+    {
+      "id": "29f6394b-165e-4a02-b213-b1085f599d7c",
+      "productName": "Customized Tshirt",
+      "productCurrentPrice": "₹599",
+      "image": "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/customized-tshirt-maroon/0.webp",
+      "imageColor": "Maroon",
+      "loginUserId": "6a387158-3f6d-4a5f-951f-e23cb16dab6f",
+      "quantity": 2
+    },
+    {
+      "id": "d917a795-c6cf-4740-a120-611eee4f907a",
+      "productName": "Marshmallow Cap",
+      "productCurrentPrice": "₹219",
+      "image": "https://codeswear.nyc3.cdn.digitaloceanspaces.com/caps/marshmallow-cap-navyblue/0.webp",
+      "imageColor": "Navyblue",
+      "loginUserId": "cc4e167e-da3c-4b84-97ba-2c699b15b276",
+      "quantity": 2
+    },
+    {
+      "id": "263fe5d2-6c8b-44b8-854a-8342e3b5dcad",
+      "productName": "Go Your Own Way Tshirt",
+      "productCurrentPrice": "₹549",
+      "image": "https://codeswear.nyc3.cdn.digitaloceanspaces.com/tshirts/go-your-own-way-tshirt-black/0.webp",
+      "imageColor": "Black",
+      "loginUserId": "cc4e167e-da3c-4b84-97ba-2c699b15b276",
+      "quantity": 1
+    },
+    {
+      "id": "bcb2bd92-9b6c-4124-a84c-e547848fce75",
+      "productName": "Valorant Sweatshirt",
+      "productCurrentPrice": "₹599",
+      "image": "https://codeswear.nyc3.cdn.digitaloceanspaces.com/sweatshirts/valorant-sweatshirt-red/0.webp",
+      "imageColor": "Red",
+      "loginUserId": "075703d5-5ac3-48eb-a76b-b444f57c52df",
+      "quantity": 2
+    },
+    {
+      "id": "8c47fb52-9f57-4edd-8a01-6dee1c21f8bd",
+      "productName": "Perfect Thats Me Typography Sweatshirt",
+      "productCurrentPrice": "₹599",
+      "image": "https://codeswear.nyc3.cdn.digitaloceanspaces.com/sweatshirts/perfect-thats-me-typography-sweatshirt-white/0.webp",
+      "imageColor": "White",
+      "loginUserId": "075703d5-5ac3-48eb-a76b-b444f57c52df",
+      "quantity": 1
+    },
+    {
+      "id": "e9b105af-30da-4827-9890-23bb6392f4b9",
+      "productName": "Think Big Graphic Printed Hoodie",
+      "productCurrentPrice": "₹799",
+      "image": "https://codeswear.nyc3.cdn.digitaloceanspaces.com/hoodies/think-big-graphic-printed-hoodie-black/0.webp",
+      "imageColor": "Black",
+      "loginUserId": "075703d5-5ac3-48eb-a76b-b444f57c52df",
+      "quantity": 2
+    },
+    {
+      "id": "a5c61082-ae42-4ffb-96a6-75484789e267",
+      "productName": "Share Prosper Graphic Printed Oversizedtshirt",
+      "productCurrentPrice": "₹579",
+      "image": "https://codeswear.nyc3.cdn.digitaloceanspaces.com/oversizedtshirts/share-prosper-graphic-printed-oversizedtshirt-white/0.webp",
+      "imageColor": "White",
+      "loginUserId": "075703d5-5ac3-48eb-a76b-b444f57c52df",
+      "quantity": 2
+    }
+  ],
   "loginUser": []
 }

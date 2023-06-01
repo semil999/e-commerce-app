@@ -14,7 +14,12 @@ const Register = () => {
     const blanckObj = {id : 0 , name : '' , email : '' , password : '' , phone : '' , age : '' , gender : ''}
     const [obj, setobj] = useState({...blanckObj})
     const matchUser = user.find(x => x.email == obj.email)
-    const loginUser = useSelector(state => state.loginUser.loginUser[0])
+    let loginData ;
+    if (typeof window !== "undefined") {
+      loginData = JSON.parse(localStorage.getItem("login")) || ""
+    }
+    const loginUserData = useSelector(state => state.loginUser.loginUser)
+    const loginUser = loginUserData?.find(x => x.id == loginData.id)
     const matchLoginUser = user?.find(x => x.id == loginUser?.userId)
 
     useEffect(() => {

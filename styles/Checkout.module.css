@@ -1,0 +1,26 @@
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.table th{
+    background-color: #0b47a9;
+    color: white;
+}
+.table tbody td{
+    border: 1px solid black;
+    font-weight: 600;
+    font-size: 17px;
+}
+.table tfoot td{
+    font-weight: 600;
+    font-size: 17px;
+}
+.total{
+    font-weight: bold;
+    font-size: 20px;
+}
+.ul{
+    list-style-type: none;
+    padding-left: 0;
+}

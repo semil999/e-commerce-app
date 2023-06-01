@@ -1,0 +1,12 @@
+.logo{
+    height: 180px;
+    width: 180px;
+}
+.shoppingbtn{
+    padding: 10px 30px 12px 30px;
+    color: white;
+    background-color: #0b47a9;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}

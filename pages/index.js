@@ -8,6 +8,7 @@ import { FaRupeeSign, FaShippingFast, FaTshirt } from 'react-icons/fa';
 export default function Home() {
   const products = useSelector(state => state.products.products)
   const carousel = ['https://codeswear.nyc3.cdn.digitaloceanspaces.com/constants/landing/banner/1.webp' , 'https://codeswear.nyc3.cdn.digitaloceanspaces.com/constants/landing/banner/2.webp' , 'https://codeswear.nyc3.cdn.digitaloceanspaces.com/constants/landing/banner/3.webp']
+  
   const details = [
     {
       icon : <FaTshirt />,

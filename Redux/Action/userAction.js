@@ -3,7 +3,7 @@ import { USER } from "../Types/types"
 
 export const getUserData = () => {
     return (dispatch) => {
-        axios.get('http://localhost:3001/user').then(res => {
+        axios.get('http://192.168.29.148:3001/user').then(res => {
             dispatch({
                 type : USER,
                 data : res.data
@@ -14,7 +14,7 @@ export const getUserData = () => {
 
 export const addUserData = (obj) => {
     return (dispatch) => {
-        axios.post('http://localhost:3001/user' , obj).then(() => {
+        axios.post('http://192.168.29.148:3001/user' , obj).then(() => {
             dispatch(getUserData())
         })
     }

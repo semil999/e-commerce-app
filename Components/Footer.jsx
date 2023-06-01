@@ -10,11 +10,13 @@ const Footer = () => {
             <div className="col">
               <div>
                 <div>
-                  <img
-                    src={"/logo.png"}
-                    className={styles.footerImg}
-                    alt="logo"
-                  />
+                  <Link href={'/'}>
+                    <img
+                      src={"/logo.png"}
+                      className={styles.footerImg}
+                      alt="logo"
+                    />
+                  </Link>
                 </div>
                 <div>
                   <p>
@@ -58,17 +60,17 @@ const Footer = () => {
               <div>
                 <h6 className={styles.h6}>CUSTOMER SERVICE</h6>
                 <div>
-                  <Link href="/" className={styles.link}>
+                  <Link href="/contactus" className={styles.link}>
                     Contact Us
                   </Link>
                 </div>
                 <div>
-                  <Link href="/" className={styles.link}>
+                  <Link href="/about" className={styles.link}>
                     About Us
                   </Link>
                 </div>
                 <div>
-                  <Link href="/" className={styles.link}>
+                  <Link href="/returnpolicy" className={styles.link}>
                     Return Policy
                   </Link>
                 </div>
@@ -78,12 +80,12 @@ const Footer = () => {
               <div>
                 <h6 className={styles.h6}>POLICY</h6>
                 <div>
-                  <Link href="/" className={styles.link}>
+                  <Link href="/privacy" className={styles.link}>
                     Privacy Policy
                   </Link>
                 </div>
                 <div>
-                  <Link href="/" className={styles.link}>
+                  <Link href="/terms" className={styles.link}>
                     Terms and Conditions
                   </Link>
                 </div>

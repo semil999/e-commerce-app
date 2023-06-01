@@ -3,7 +3,7 @@ import { LOGINUSER } from "../Types/types"
 
 export const getLoginUser = () => {
     return (dispatch) => {
-        axios.get('http://localhost:3001/loginUser').then(res => {
+        axios.get('http://192.168.29.148:3001/loginUser').then(res => {
             dispatch({
                 type : LOGINUSER,
                 data : res.data
@@ -14,7 +14,7 @@ export const getLoginUser = () => {
 
 export const addLoginUser = (obj) => {
     return (dispatch) => {
-        axios.post('http://localhost:3001/loginUser' , obj).then(() => {
+        axios.post('http://192.168.29.148:3001/loginUser' , obj).then(() => {
             dispatch(getLoginUser())
         })
     }
@@ -22,7 +22,7 @@ export const addLoginUser = (obj) => {
 
 export const logoutUser = (id) => {
     return (dispatch) => {
-        axios.delete(`http://localhost:3001/loginUser/${id}`).then(() => {
+        axios.delete(`http://192.168.29.148:3001/loginUser/${id}`).then(() => {
             dispatch(getLoginUser())
         })
     }

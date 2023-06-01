@@ -1,0 +1,30 @@
+.canvas{
+    background-color: #1a5bc3 !important;
+    color: white !important;
+}
+.closebtn{
+    color: white !important;
+    font-size: 22px !important;
+    border: 2px solid white !important;
+    padding: 3px 12px 8px 12px !important;
+    border-radius: 50px !important;
+}
+.buttons{
+    border: none;
+    padding: 0 10px 2px 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    background-color: #00ccff;
+}
+.removebtn{
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: red;
+    color: white;
+    padding: 3px 15px;
+    border-radius: 20px;
+    margin-left: 8px;
+}

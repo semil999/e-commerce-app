@@ -6,13 +6,21 @@ import { FaBars, FaCartPlus } from 'react-icons/fa';
 import { useDispatch, useSelector } from "react-redux";
 import { logoutUser } from "@/Redux/Action/loginUserAction";
 import Swal from "sweetalert2";
+import CartCanvas from "./CartCanvas";
 
 const Header = () => {
     const router = useRouter()
     const dispatch = useDispatch()
     const user = useSelector(state => state.user.user)
-    const loginUser = useSelector(state => state.loginUser.loginUser[0])
+    let loginData ;
+    if (typeof window !== "undefined") {
+      loginData = JSON.parse(localStorage.getItem("login")) || ""
+    }
+    const loginUserData = useSelector(state => state.loginUser.loginUser)
+    const loginUser = loginUserData?.find(x => x.id == loginData.id)
     const matchLoginUser = user?.find(x => x.id == loginUser?.userId)
+    const cartData = useSelector(state => state.cartData.cartData)
+    const loginUserCartData = cartData?.filter(x => x.loginUserId == matchLoginUser?.id)
 
     const logout = (id) => {
       Swal.fire({
@@ -32,6 +40,7 @@ const Header = () => {
             showConfirmButton: false,
             timer: 1500
           })
+          localStorage.clear()
           dispatch(logoutUser(id))
         }
       })
@@ -54,10 +63,10 @@ const Header = () => {
                     <Link className={styles.link} href="/products/5">SweatShirts</Link>
                     <Link className={styles.link} href="/products/4">Mugs</Link>
                     <Link className={styles.link} href="/products/6">Oversized T-Shirts</Link>
-                    <button className={`position-relative me-2 border-0 bg-transparent fs-3 ${styles.cart}`}>
+                    <button data-bs-toggle="offcanvas" data-bs-target="#cartCanvas" aria-controls="cartCanvas" className={`position-relative me-2 border-0 bg-transparent fs-3 ${styles.cart}`}>
                         <FaCartPlus />
                         <span className={`text-white translate-middle border border-light rounded-circle ${styles.bage}`}>
-                            0
+                          {loginUserCartData ? loginUserCartData.length : 0}
                         </span>
                     </button>
                     {
@@ -85,9 +94,9 @@ const Header = () => {
                   <button type="button" onClick={() => router.push('/login')} className={styles.login}>Login</button> :
                   <button type="button" onClick={() => logout(loginUser.id)} className={styles.logout}>Logout</button>
                 }
-                <button className={`ms-2 position-relative border-0 bg-transparent fs-3 ${styles.cart}`}>
+                <button data-bs-toggle="offcanvas" data-bs-target="#cartCanvas" aria-controls="cartCanvas" className={`ms-2 position-relative border-0 bg-transparent fs-3 ${styles.cart}`}>
                     <FaCartPlus />
-                    <span className={`text-white translate-middle border border-light rounded-circle ${styles.bage}`}>0</span>
+                    <span className={`text-white translate-middle border border-light rounded-circle ${styles.bage}`}>{loginUserCartData ? loginUserCartData.length : 0}</span>
                 </button>
             </p>
             <p><Link className={styles.canvasLink} href="/">Home</Link></p>
@@ -99,6 +108,7 @@ const Header = () => {
             <p><Link className={styles.canvasLink} href="/products/6">Oversized T-Shirts</Link></p>
           </div>
         </div>
+        <CartCanvas />
     </>
   )
 }
